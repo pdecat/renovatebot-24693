@@ -1,0 +1,5 @@
+include:
+  - project: 'my/project-templates'
+    ref: {{ cookiecutter.gitlab_ci_template_version }}
+    file: 'test.yml'
+
